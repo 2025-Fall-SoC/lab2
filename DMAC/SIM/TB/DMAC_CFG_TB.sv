@@ -49,7 +49,7 @@ module DMAC_CFG_TB ();
         apb_if.read(32'h0, data);
         $display("---------------------------------------------------");
         $display("IP version: %x", data);
-	    if (data!=='h0001_2025)
+	    if (data!=='h0002_2025)
 		    $display("Wrong IP version");
 		$display("---------------------------------------------------");
 
